@@ -69,6 +69,18 @@ display:none;
 text-align:center;
 margin-top:60px;
 }
+    a{
+color:black;
+text-decoration:none;
+}
+
+a:visited{
+color:black;
+}
+
+a:hover{
+color:black;
+}
 
 </style>
 </head>
