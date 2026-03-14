@@ -6,12 +6,12 @@
 <title>Unit Management System</title>
 
 <style>
-/* General page styling */
+/* Page */
 
 body{
     font-family: Arial, sans-serif;
-    background-color: white;
-    color: black;
+    background-color: white !important;
+    color: black !important;
     padding: 30px;
     text-align: center;
 }
@@ -20,20 +20,21 @@ body{
 /* Headings */
 
 h1, h2, h3, h4, h5, h6{
-    color: black;
+    color: black !important;
 }
 
 
-/* Form inputs */
+/* Inputs */
 
-input, select, button{
+input, select{
     padding: 8px;
     margin: 5px;
-    font-size: 14px;
+    color: black !important;
+    background-color: white !important;
 }
 
 
-/* Table styling */
+/* Table */
 
 table{
     width: 100%;
@@ -42,11 +43,11 @@ table{
 }
 
 
-/* Table headers */
+/* Table header */
 
 th{
     background-color: #333;
-    color: white;
+    color: white !important;
     padding: 10px;
     border: 1px solid #555;
 }
@@ -58,75 +59,76 @@ td{
     border: 1px solid #555;
     padding: 10px;
     text-align: center;
-    color: black;
+    color: black !important;
+    background-color: white !important;
 }
 
 
-/* Force all table text to stay visible */
+/* Force all table text */
 
-table, th, td{
-    color: black;
+table, th, td, tr{
+    color: black !important;
 }
 
 
-/* Remove default blue link color */
+/* Links */
 
 a{
-    color: black;
+    color: black !important;
     text-decoration: none;
 }
 
 a:visited{
-    color: black;
+    color: black !important;
 }
 
 a:hover{
-    color: black;
+    color: black !important;
 }
 
 
 /* Buttons */
 
 button{
+    padding: 8px 12px;
     border: none;
     cursor: pointer;
-    padding: 8px 12px;
 }
 
 
-/* Edit button */
+/* Edit */
 
 .editBtn{
     background-color: orange;
-    color: black;
+    color: black !important;
 }
 
 
-/* Save button */
+/* Save */
 
 .saveBtn{
     background-color: limegreen;
-    color: black;
+    color: black !important;
 }
 
 
-/* Remove button */
+/* Remove */
 
 .removeBtn{
     background-color: crimson;
-    color: white;
+    color: white !important;
 }
 
 
-/* Logout button */
+/* Logout */
 
 .logoutBtn{
     background-color: gray;
-    color: white;
+    color: white !important;
 }
 
 
-/* Hidden sections (used for login/app switching) */
+/* Hidden sections */
 
 .hidden{
     display: none;
@@ -136,7 +138,6 @@ button{
 /* Login box */
 
 .authBox{
-    text-align: center;
     margin-top: 60px;
 }
 </style>
