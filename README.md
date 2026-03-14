@@ -7,8 +7,8 @@
 
 <style>
 body{
-    background:black;
-    color:white;
+    background:white;
+    color:black;
 }
 
 h1{
@@ -47,7 +47,7 @@ background:#333;
 
 .removeBtn{
 background:crimson;
-color:black;
+color:white;
 border:none;
 }
 
@@ -70,9 +70,6 @@ text-align:center;
 margin-top:60px;
 }
 
-  h1, h2, h3, h4, h5, h6{
-    color:black;
-}
 </style>
 </head>
 
