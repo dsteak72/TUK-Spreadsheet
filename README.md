@@ -1,9 +1,6 @@
-# TUK Spreadsheet
-<!DOCTYPE html>
-<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Unit Management System</title>
+<title>TUKspreadsheet</title>
 
 <style>
 /* Page */
