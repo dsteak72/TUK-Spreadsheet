@@ -7,10 +7,8 @@
 
 <style>
 body{
-font-family: Arial;
-background:#1e1e1e;
-color:black;
-padding:30px;
+    background:white;
+    color:black;
 }
 
 h1{
@@ -70,6 +68,10 @@ display:none;
 .authBox{
 text-align:center;
 margin-top:60px;
+}
+
+  h1, h2, h3, h4, h5, h6{
+    color:black;
 }
 </style>
 </head>
