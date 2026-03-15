@@ -5,11 +5,13 @@
 <style>
 /* Page */
 
-    #searchInput{
+   #searchInput {
     width: 300px;
     padding: 8px;
     margin-bottom: 15px;
+    font-size: 14px;
 }
+
     
 body{
     font-family: Arial, sans-serif;
@@ -232,6 +234,9 @@ button{
 <button type="submit">Add Member</button>
 
 </form>
+
+<h2>Member List</h2>
+<input type="text" id="searchInput" placeholder="Search members..." onkeyup="searchMembers()">
 
 <table>
 
@@ -481,7 +486,21 @@ rows[i].style.display = "none"
 }
 
 }
-    
+    function searchMembers() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+    let table = document.getElementById("memberTable");
+    let rows = table.getElementsByTagName("tr");
+
+    for (let i = 0; i < rows.length; i++) {
+        let text = rows[i].innerText.toLowerCase();
+        if (text.includes(input)) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }
+    }
+}
+
 </script>
 
 </body>
