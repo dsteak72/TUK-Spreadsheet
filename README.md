@@ -5,6 +5,12 @@
 <style>
 /* Page */
 
+    #searchInput{
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+    
 body{
     font-family: Arial, sans-serif;
     background-color: white !important;
